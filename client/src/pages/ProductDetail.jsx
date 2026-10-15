@@ -15,7 +15,7 @@ function ProductDetail() {
     const fetchProduct = async () => {
       try {
         const res = await axios.get(
-          `http://127.0.0.1:8000/products/${id}/`
+          `https://ecommerce-fullstack-api-gwnu.onrender.com/products/${id}/`
         );
 
         setProduct(res.data);

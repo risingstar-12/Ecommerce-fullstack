@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://127.0.0.1:8000";
+const BASE_URL = "https://ecommerce-fullstack-api-gwnu.onrender.com";
 
 export const getProducts = async () => {
   const response = await axios.get(`${BASE_URL}/products/`);

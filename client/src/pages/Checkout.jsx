@@ -63,8 +63,8 @@ const handlePlaceOrder = async (e) => {
     navigate("/");
   } catch (err) {
     console.error("ORDER STATUS:", err.response?.status);
-console.error("ORDER ERROR DETAILS:", err.response?.data);
-alert(JSON.stringify(err.response?.data, null, 2));
+    console.error("ORDER ERROR DETAILS:", err.response?.data);
+    alert(JSON.stringify(err.response?.data, null, 2));
 
     alert(
       "Could not save your order. Please check the error in the console."

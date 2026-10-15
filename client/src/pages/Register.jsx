@@ -13,7 +13,9 @@ export default function Register() {
 
     try {
       await axios.post(
-        "http://127.0.0.1:8000/auth/register/",
+              
+      "https://ecommerce-fullstack-api-gwnu.onrender.com/auth/register/"
+      ,
         {
           username,
           password,
