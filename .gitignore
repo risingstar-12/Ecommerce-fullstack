@@ -15,6 +15,7 @@ venv1/
 server/.env
 server/.env.*
 !server/.env.example
+server/staticfiles/
 
 # Local databases and uploaded files
 *.sqlite3
