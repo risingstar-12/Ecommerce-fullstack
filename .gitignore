@@ -1,0 +1,32 @@
+
+# React frontend
+client/node_modules/
+client/dist/
+client/.env
+client/.env.*
+!client/.env.example
+
+# Python and Django
+__pycache__/
+*.py[cod]
+venv/
+venv1/
+.venv/
+server/.env
+server/.env.*
+!server/.env.example
+
+# Local databases and uploaded files
+*.sqlite3
+server/media/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
