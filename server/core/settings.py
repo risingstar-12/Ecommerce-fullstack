@@ -18,12 +18,15 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
     "http://localhost:5174",
     "http://127.0.0.1:5174",
+    "https://ecommerce-fullstack-theta-coral.vercel.app",
 ]
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
